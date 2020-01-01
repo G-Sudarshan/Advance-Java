@@ -28,7 +28,6 @@ class First_frame extends Frame implements WindowListener
         c.add("Second Year");  
         c.add("Third Year");  
        
-
         List l1 = new List(5);  
          
         l1.add("Computer Technology");  
@@ -43,19 +42,22 @@ class First_frame extends Frame implements WindowListener
         l2.add("Spring");  
         l2.add("Hibernate");  
         l2.add("CodeIgniter");  
-        
-          
 
-		
-		
+        CheckboxGroup cbg = new CheckboxGroup();  
+        Checkbox checkBox1 = new Checkbox("Male", cbg, false);    
+          
+        Checkbox checkBox2 = new Checkbox("Female", cbg, false);    
+               	
 		add(name);
 		add(nameInput);
 		add(password);
 		add(passwordInput);
+		add(checkBox1);
+		add(checkBox2);
 		add(l1); 
 		add(c); 
 		add(l2);
-		add(register);
+		add(register);    
 
 		setTitle("Registration form");
 
