@@ -1,0 +1,25 @@
+<web-app>
+    <servlet>
+        <servlet-name>addcookieserv</servlet-name>
+        <servlet-class>mycookies.AddCookieServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>addcookieserv</servlet-name>
+        <url-pattern>/addcookieserv</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getcookieserv</servlet-name>
+        <servlet-class>mycookies.GetCookiesServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>getcookieserv</servlet-name>
+        <url-pattern>/getcookieserv</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>Cookies.html</welcome-file>
+    </welcome-file-list>
+</web-app>

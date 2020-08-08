@@ -1,0 +1,23 @@
+<web-app>
+
+<servlet>
+    <servlet-name>p1</servlet-name>
+    <servlet-class>page1</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>p1</servlet-name>
+    <url-pattern>/page1</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>p2</servlet-name>
+    <servlet-class>page2</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>p2</servlet-name>
+    <url-pattern>/page2</url-pattern>
+</servlet-mapping>
+
+</web-app>
