@@ -4,7 +4,7 @@ class InetAddressTest
 {
     public static void main(String[] args) throws UnknownHostException
     {
-        InetAddress Address[] = InetAddress.getAllByName("www.sumagoinfotech.com");
+        InetAddress Address[] = InetAddress.getAllByName("www.gpnashik.ac.in");
         
      for(int i = 0 ; i < Address.length ; i++)
      {

@@ -36,7 +36,7 @@ class KeyAdapterDemo extends KeyAdapter{
     {
         String text = area.getText();
         String words[] = text.split("\\s");
-        l.setText("Words : "+words.length+"Characters : "+text.length()); 
+        l.setText("Words : "+words.length+" Characters : "+text.length()); 
     }
 
     public static void main(String[] args) {

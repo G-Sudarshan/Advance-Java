@@ -27,7 +27,7 @@ public class ChoiceDemo extends Frame implements ItemListener
         os.add("Solaris");
         os.add("Mac OS");
 
-        browser.add("Interney Explorer ");
+        browser.add("Internet Explorer ");
         browser.add("Google Chrome");
         browser.add("Chrome");
         browser.add("safari");
