@@ -3,10 +3,10 @@ import java.io.*;
 
 class PortDemo{
     public static void main(String a[])throws Exception{
-        // URL obj = new URL("https://www.sanfoundry.com");
-        // System.out.println(obj.getPort());
+        URL obj = new URL("https://www.sanfoundry.com");
+        System.out.println(obj.getPort());
         int c;
-        URL hp = new URL("http://3.20.15.65/cms/config.txt");
+        URL hp = new URL("demourl");
         URLConnection hpCon = hp.openConnection();
 
         System.out.println("=== Content ===");
